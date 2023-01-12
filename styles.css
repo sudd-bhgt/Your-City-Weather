@@ -1,0 +1,53 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  /* padding-top: 50vh;
+  transform: translate(0, -40%); */
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin-bottom: 1%;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: slategray;
+}
+
+#align-left {
+  display: inline-block;
+  text-align: left;
+  line-height: 3.2rem;
+}
+.label {
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: bisque;
+}
+
+.value {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
