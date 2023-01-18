@@ -38,8 +38,6 @@ async function geoLocationApi() {
     <br>
     <span class = 'label'>Wind Direction: </span> <span class = 'value'>${jsonData.wind.deg}</span>
     <br>
-    <span class = 'label'>UV Index: </span> 
-    <br>
     <span class = 'label'>Feels Like: </span> <span class = 'value'>${jsonData.main.feels_like}</span>
     </div>
     `;
